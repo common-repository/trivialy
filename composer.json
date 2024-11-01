@@ -1,0 +1,21 @@
+{
+  "name": "trivaly/netro-trivialy",
+  "description": "Netro Trivialy Plugin",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "MD Muhtasim Jeet",
+      "email": "jeet25890@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "NT\\Admin\\": "admin/",
+      "NT\\Frontend\\": "frontend/",
+      "NT\\Includes\\": "includes/",
+      "NT\\Api\\": "api/"
+    }
+  },
+  "require-dev": {}
+}

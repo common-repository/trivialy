@@ -1,0 +1,64 @@
+body {
+  background-color: #ffffff;
+}
+
+#dolly {
+  float: none !important;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+body {
+  scrollbar-width: none;
+}
+
+.custom-wrap {
+  margin: 0;
+  height: calc(100vh - 100px);
+}
+.custom-wpcontent {
+  padding-left: 0 !important;
+}
+#trivialy-plugin {
+  height: 100%;
+}
+
+.l-content img {
+  height: 100%;
+  max-width: max-content;
+}
+
+.r-content {
+  position: relative;
+}
+td {
+  color: var(--color-text-colors-700-black-medium-emp, #2f2f2f);
+  /* Text/Body/Body 4 | Light | Regular 400 */
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 18.2px */
+}
+
+th {
+  overflow: hidden;
+  color: var(
+    --color-text-colors-50-white-high-emp,
+    var(--Color-Natural-50, #fff)
+  );
+  text-overflow: ellipsis;
+  /* Text/Button/Button 3 | Small | Semibold 600 */
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 17.5px */
+  letter-spacing: 0.14px;
+}
+select option:disabled {
+  color: #c5c5c5;
+}
